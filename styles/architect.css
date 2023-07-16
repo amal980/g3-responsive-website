@@ -118,6 +118,10 @@ li a{
     color: #727272;
     margin-bottom: 30px;
 }
+.skills-description-area{
+    display: flex;
+    align-items: center;
+}
 /* Extra small devices (phones, less than 768px) */
 @media screen and (max-width:768px){
     header{
