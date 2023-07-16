@@ -79,16 +79,19 @@ li a{
     margin-top: 50px;
 }
 /* header section style end */
+.skills-description-area{
+    display: flex;
+    align-items: center;
+}
 .teame-analist{
     display: flex;
     align-items: center;
     margin-left: 250px;
     width: 100%;
+    margin-top: 50px;
 }
 .team-images {
     width:60%;
-   
-   
 }
 .t-images{
     width:300px;
@@ -96,10 +99,7 @@ li a{
     margin: 0px 10px 10px 0px;
    
 }
-.team-description-area{
-    width: 40%;
-  
-}
+
 .list{
     color: #727272;
 }
@@ -118,10 +118,70 @@ li a{
     color: #727272;
     margin-bottom: 30px;
 }
-.skills-description-area{
-    display: flex;
-    align-items: center;
+.team-description-area{
+    width: 40%;
+  
 }
+.skills-description-area{
+    margin-left: 200px;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 50px;
+    gap:20px;
+    width: 100%;
+}
+.skill-description{
+   
+ 
+}
+.skill-titel{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 20px;
+}
+.skill-dokument{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+}
+.skill-images{
+   
+}
+.skills{
+    margin-top: 75px;
+}
+.skill-h{
+    font-size: 20px;
+    font-weight: 600;
+    color: #131313;
+    margin-bottom: 10px;
+}
+.skill-d{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    margin-bottom: 20px;
+    width: 514px;
+}
+.btn-years{
+    border: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #FF900E;
+    border-radius: 8px;
+   width: 342px;
+   height: 200px;   
+   margin-top: -150px;
+   margin-right: 40px;
+}
+.year{
+    font-size: 65px;
+    font-weight: 700;
+    
+}
+
 /* Extra small devices (phones, less than 768px) */
 @media screen and (max-width:768px){
     header{
